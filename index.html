@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>MilestoKilometer</title>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="C:\Users\65977\Desktop\Class years 4 semester 1\Mobiles\mobile-app\style-css/styles.css">
+    <script src="C:\Users\65977\Desktop\Class years 4 semester 1\Mobiles\mobile-app\js\script.js"></script>
+</head>
+<body>
+        <div class="navbar">
+    <h2>Miles (Mi) to Kilometers (Km) converter</h2>
+        </div>
+        <center>
+    <h3> Convert Kilometer To Miles</h3>
+    <p>Input the number & Enter to Get Result</p>
+    <p>
+        <label>Kilometers</label>
+        <input id="inputKilometers" type="number" placeholder="Kilometers" oninput="LengthConverter(this.value)" onchange="LengthConverterK2M(this.value)">
+        </p>
+        <p>Miles: <span id="outputMiles"></span></p>
+
+
+    <h3> Convert Miles To kilometer</h3>
+    <p>Input the number & Enter to Get Result</p>
+
+    <p>
+        <label>Miles</label>
+        <input id="inputMiles" type="number" placeholder="Miles" oninput="LengthConverter(this.value)" onchange="LengthConverterM2K(this.value)">
+    </p>
+    <p>Kilometers: <span id="outputKilometers"></span></p>
+</center>
+</body>
+</html>
